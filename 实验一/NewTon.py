@@ -56,7 +56,7 @@ while k != n:
         tempAns = (x - fxNum[kn]['x']) * tempAns
     # 计算y的值
     y = y + chaFenTables[countX][countY] * tempAns
-    print("第%d次:"%(k), y)
+    print("第%d次:" % (k), y)
     k += 1
     countX += 1
     countY += 1
