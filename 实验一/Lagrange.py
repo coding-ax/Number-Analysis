@@ -1,6 +1,7 @@
-x = float(input("x="))
-n = int(input("n="))
+x = float(input("x="))  # 输入x
+n = int(input("n="))  # 输入插入节点个数n
 fxNum = []
+# 循环输入xi与yi
 for value in range(0, n):
     xi = float(input('x' + str(value) + ':'))
     yi = float(input('y' + str(value) + ':'))
@@ -15,7 +16,7 @@ while k != n:
     for j in range(0, n):
         if j == k:
             continue
-        t = (x - fxNum[j]['x']) / (fxNum[k]['x'] - fxNum[j]['x'])*t
+        t = (x - fxNum[j]['x']) / (fxNum[k]['x'] - fxNum[j]['x']) * t
     y = y + t * fxNum[k]['y']
     k += 1
 print(y)
