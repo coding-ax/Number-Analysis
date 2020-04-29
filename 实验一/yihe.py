@@ -67,6 +67,7 @@ print('%da+%db=%d' % (n, sumAns(fxNum, 'x'), sumAns(fxNum, 'y')))
 print('%da+%db=%d' % (sumAns(fxNum, 'x'), xmolx(fxNum), xmoly(fxNum)))
 
 # 解二元一次方程
-b = (x_y - sumY*sumX/n)/(x_2-sumX*sumX/n)
-a = (sumY - sumX*b)/n
-print("%f+%fx=y"%(a,b))
+b = (x_y - sumY * sumX / n) / (x_2 - sumX * sumX / n)
+a = (sumY - sumX * b) / n
+print("%f+%fx=y" % (a, b))
+print("dsd")
