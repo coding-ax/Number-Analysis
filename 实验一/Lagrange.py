@@ -37,5 +37,5 @@ while k != n:
         t = (x - fxNum[j]['x']) / (fxNum[k]['x'] - fxNum[j]['x']) * t
     y = y + t * fxNum[k]['y']
     k += 1
-print(y)
+print("%.7f" % (y))
 # 115 3 100 10 121 11 144 12

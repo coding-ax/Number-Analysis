@@ -24,11 +24,12 @@ while True:
         S = S + f(x)
         x = x + h
     T2 = T1 / 2 + h / 2 * S
-    print("T=%f" % (T2))
+    print("T=%.7f" % (T2))
     if (math.fabs(T2 - T1) < e):
         break
     else:
         h = h / 2
         T1 = T2
 ans = T2
-print('复化梯形公式:%f' % (ans))
+print('复化梯形公式:%.7f' % (ans))
+# %f -> %.7f
