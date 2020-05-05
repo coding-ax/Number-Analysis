@@ -70,4 +70,3 @@ print('%da+%db=%d' % (sumAns(fxNum, 'x'), xmolx(fxNum), xmoly(fxNum)))
 b = (x_y - sumY * sumX / n) / (x_2 - sumX * sumX / n)
 a = (sumY - sumX * b) / n
 print("%f+%fx=y" % (a, b))
-print("dsd")
