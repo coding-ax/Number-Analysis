@@ -10,10 +10,6 @@ def f(x):
     return x * math.e ** x - 1
 
 
-def fi(x):
-    return math.e ** x + x * math.e ** x
-
-
 x = 0.0
 
 k = 1
